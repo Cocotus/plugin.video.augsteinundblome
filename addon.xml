@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.augsteinundblome"
+	name="Augstein und Blome"
+	version="1.0.0"
+	provider-name="cocotus">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de">Alle Augstein und Blome Phoenix Diskussionen</summary>
+    <description lang="de">Umfasst alle bisherigen Augstein und Blome Diskussionen aus Phoenix</description>
+    <platform>all</platform>
+    <forum>http://forum.kodi.tv/showthread.php?tid=254203</forum>
+    <source>https://github.com/cocotus/plugin.video.augsteinundblome</source>
+    <website>http://kodi.tv</website>
+    <email>cocotus@kodi.tv</email>
+    <license>GPL v2.0</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot>resources/screenshot-01.jpg</screenshot>
+        <screenshot>resources/screenshot-02.jpg</screenshot>
+        <screenshot>resources/screenshot-03.jpg</screenshot>
+    </assets>
+    <news>First version released!</news>
+  </extension>
+</addon>
